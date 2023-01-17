@@ -1,0 +1,1107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.title h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+
+}
+.title h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+/* comman css end */
+
+
+nav{
+    background:url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+
+}
+
+ nav .logo{
+    width: 20%;
+    float: left;
+    margin-top: 15px;
+
+}
+nav .item{
+    width: 60%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    
+
+}
+ nav .item ul li{
+display: inline-block;
+padding: 20px 20px;
+transition: .4s;
+font-size: 16px;
+color: #000;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 800;
+cursor: pointer;
+position: relative;
+
+}
+nav .item ul li:hover{
+    color: #d50a51;
+}
+
+nav .item ul li::after{
+    content: '';
+    background: url(../images/hover-img.png) no-repeat center;
+    
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -40%;
+    opacity: 0;
+    transition: .4s;
+
+}
+nav .item ul li:hover::after{
+    opacity: 1;
+}
+
+nav .login{
+    width: 20%;
+    float: left;
+    
+  
+}
+ nav .login button{
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d50a51;
+    background-color: transparent;
+    border-color: #d50a51;
+    cursor: pointer;
+    position: relative;
+    transition: .4s;
+    margin-top: 20px;
+}
+nav .login button:hover{
+    background: #d50a51;
+    color: #fff;
+}
+/* nav end */
+/* header start */
+header{
+    background: url(../images/banner.jpg) no-repeat center ;
+    background-size: cover;
+    padding: 100px 0;
+    
+    
+}
+header .img{
+    width: 50%;
+    float: left;
+}
+header .text{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+header .img img{
+    width: 100%;
+}
+header .text h3{
+    color: #8a5e3b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    margin-top: 150px;
+}
+header .text h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    color: #d50a51;
+    margin-bottom: -28px;
+}
+header .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    padding-bottom: 45px;
+    margin: 30px 0;;
+}
+header .text button{
+    border: 1px solid #d50a51;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #d50a51;
+    text-decoration: none;
+    transition:.4s;
+    background: transparent;
+    
+}
+header .text button:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+/* header end */
+/* about-part start ============= */
+#about-part{
+    margin-top: 100px;
+}
+#about-part .img{
+    width: 50%;
+    float: left;
+}
+#about-part .text{
+    width: 50%;
+    float: left;
+    
+   
+}
+#about-part .text .title{
+ margin-left: 50px;
+
+}
+
+#about-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    margin:15px 0;
+}
+
+/* about-part end ============= */
+/* gift-part start================= */
+
+#gift-part{
+    margin-top: 100px;
+    background: #fff6da;
+   
+    
+}
+#gift-part .text{
+   width: 50%;
+   float: left;
+   position: relative;
+
+}
+#gift-part .text p{
+    width: 100%;
+    
+ 
+ }
+#gift-part .title{
+ margin-top: 100px;
+ margin-left: 50px;
+
+}
+#gift-part .title img{
+    
+    position: absolute;
+    top:70px;
+    left: 0;;
+}
+ 
+#gift-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    margin: 10px 0;;
+ 
+ }
+#gift-part button{
+    margin: 20px 0;
+    border: 1px solid #d50a51;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #d50a51;
+    text-decoration: none;
+    transition: all linear .3s;
+    margin-right: 20px;
+    text-transform: capitalize;
+    background: transparent;
+    transition: .4s;
+}
+
+#gift-part .text button:hover{
+    background: #d50a51;
+    color: #fff;
+}
+#gift-part .img{
+   width: 50%;
+   float: left;
+}
+#gift-part .img img{
+width: 80%;
+margin-top: -100px;
+ }
+
+/* gift-part end================= */
+
+
+/*Cuple part start================= */
+#couple-part{
+    margin-top: 100px;
+}
+#couple-part .img{
+    width: 50%;
+    float: left;
+}
+#couple-part .img img{
+    width: 100%;
+    margin-top: 50px;
+    
+}
+#couple-part .text{
+    width: 50%;
+    float: left;
+}
+#couple-part .text .title{
+text-align: right;
+
+}
+#couple-part .text {
+    text-align: right;
+    
+}
+
+#couple-part .text p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;
+    margin: 10px 0;
+    
+}
+#couple-part .text button {
+    border: 1px solid #d50a51;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #d50a51;
+    text-decoration: none;
+    transition: .4s;
+    margin-right: 20px;
+    text-transform: capitalize;
+    margin: 20px 5px;
+}
+#couple-part .text button:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+/*Cuple part end================= */
+/*service part start================= */
+#service-part{
+    margin-top: 100px;
+}
+#service-part .offer{
+    width: 40%;
+    margin: 0 15px;
+    float: left;
+    position:relative;
+}
+#service-part .offer p{
+    width: 90%;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;
+    margin:10px 0;
+
+}
+#service-part .offer .title{
+margin: 40px 60px;
+
+
+}
+#service-part .offer .title img{
+position: absolute;
+top: 0;
+left: 0;;
+    }
+    
+
+#service-part .romantic{
+    width: 25%;
+    float: left;
+    margin: 0 15px;
+    margin-top: 40px;
+
+}
+
+#service-part .romantic .music{
+    width: 100%;
+
+}
+#service-part .romantic .music:hover{
+    -webkit-box-shadow: -3px -3px 10px -2px rgba(0,0,0,0.92); 
+    box-shadow: -3px -3px 10px -2px rgba(0,0,0,0.92);
+    border-right: 4px solid #d50a51;
+
+}
+#service-part .romantic .music{
+    width: 100%;
+    height: 50%;
+    transition: .4s;
+    padding:20px 0;
+    padding-left: 30px;
+
+}
+#service-part .romantic .music .img{
+width: 10%;
+float: left
+}
+#service-part .romantic .music .img img{
+    width: 100%;
+   
+    }
+#service-part .romantic .music .text{
+    width: 90%;
+    float: left;
+    margin-bottom: 50px;
+}
+#service-part .romantic .music .text h3{
+    vertical-align: -20px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 5px;
+    margin-left: 20px;
+    color: #d50a51;
+    text-transform: capitalize;
+}
+#service-part .romantic .music p{
+    width: 75%;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 24px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+#service-part .romantic .dinner{
+    width: 100%;
+    margin-top: 50px;
+    transition: .4s;
+    padding:20px 0;
+    padding-left: 30px;
+
+}
+#service-part .romantic .dinner:hover{
+    -webkit-box-shadow: -3px -3px 10px -2px rgba(0,0,0,0.92); 
+    box-shadow: -3px -3px 10px -2px rgba(0,0,0,0.92);
+    border-right: 4px solid #d50a51;
+
+}
+#service-part .romantic .dinner .img{
+    width: 10%;
+    float: left
+    }
+    #service-part .romantic .dinner .img img{
+        width: 100%;
+       
+        }
+    #service-part .romantic .dinner .text{
+        width: 90%;
+        float: left;
+        margin-bottom: 50px;
+    }
+    #service-part .romantic .dinner .text h3{
+        vertical-align: -20px;
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        padding-top: 5px;
+        margin-left: 20px;
+        color: #d50a51;
+        text-transform: capitalize;
+    }
+    #service-part .romantic .dinner p{
+        width: 75%;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        color: #444;
+        line-height: 24px;
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+
+/* ====================== */
+    #service-part .valentine{
+        width: 25%;
+        float: left;
+        margin: 0 15px;
+        margin-top: 40px;
+        
+    
+    }
+    #service-part .valentine .music{
+        width: 100%;
+    
+    }
+    #service-part .valentine .music:hover{
+        -webkit-box-shadow: -3px -3px 10px -2px rgba(0,0,0,0.92); 
+        box-shadow: -3px -3px 10px -2px rgba(0,0,0,0.92);
+        border-right: 4px solid #d50a51;
+    
+    }
+    #service-part .valentine .music{
+        width: 100%;
+        height: 50%;
+        transition: .4s;
+        padding:20px 0;
+        padding-left: 30px;
+    
+    }
+    #service-part .valentine .music .img{
+    width: 10%;
+    float: left
+    }
+    #service-part .valentine .music .img img{
+        width: 100%;
+       
+        }
+    #service-part .valentine .music .text{
+        width: 90%;
+        float: left;
+        margin-bottom: 50px;
+    }
+    #service-part .valentine .music .text h3{
+        vertical-align: -20px;
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        padding-top: 5px;
+        margin-left: 20px;
+        color: #d50a51;
+        text-transform: capitalize;
+    }
+    #service-part .valentine .music p{
+        width: 75%;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        color: #444;
+        line-height: 24px;
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+    #service-part .valentine .dinner{
+        width: 100%;
+        margin-top: 50px;
+        transition: .4s;
+        padding:20px 0;
+        padding-left: 30px;
+    
+    }
+    #service-part .valentine .dinner:hover{
+        -webkit-box-shadow: -3px -3px 10px -2px rgba(0,0,0,0.92); 
+        box-shadow: -3px -3px 10px -2px rgba(0,0,0,0.92);
+        border-right: 4px solid #d50a51;
+    
+    }
+    #service-part .valentine .dinner .img{
+        width: 10%;
+        float: left
+        }
+        #service-part .valentine .dinner .img img{
+            width: 100%;
+           
+            }
+        #service-part .valentine .dinner .text{
+            width: 90%;
+            float: left;
+            margin-bottom: 50px;
+        }
+        #service-part .valentine .dinner .text h3{
+            vertical-align: -20px;
+            font-size: 20px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 700;
+            padding-top: 5px;
+            margin-left: 20px;
+            color: #d50a51;
+            text-transform: capitalize;
+        }
+        #service-part .valentine .dinner p{
+            width: 75%;
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            color: #444;
+            line-height: 24px;
+            padding-top: 20px;
+            margin-bottom: 0;
+        }
+/*service part end================= */
+/*captur part start================= */
+#capture-part {
+    margin-top: 100px;
+}
+#capture-part img{
+    width: 100%;
+    height: 100%;
+}
+
+#capture-part .item{
+    width: 30%;
+    float: left;
+    margin: 0 15px;
+ 
+
+}
+#capture-part .img{
+    width: 100%;
+    height: 100%;
+}
+#capture-part .item .main{
+    width: 100%;
+margin-bottom: 15px;
+position: relative;
+}
+#capture-part .item .main-one{
+    width: 100%;
+margin-bottom: 15px;
+position: relative;
+}
+
+#capture-part .item .overlay{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    transition: .4s;
+    opacity: 0;;
+}
+#capture-part .item .main:hover .overlay{
+    width: 100%;
+    opacity: .7;
+}
+#capture-part .item .main-one:hover .overlay{
+    width: 100%;
+    opacity: .7;
+}
+#capture-part .item-one{
+    width: 30%;
+    float: left;
+    margin: 0 15px;
+
+}
+#capture-part .item-one .main-two{
+width: 100%;
+margin-bottom: 15px;
+position: relative;
+}
+#capture-part .item-one .main-three{
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    }
+#capture-part .item-one .main-two .overlay{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    transition: .4s;
+    opacity: 0;
+    
+}
+#capture-part .item-one .main-three .overlay{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    transition: .4s;
+    opacity: 0;
+    
+
+}
+#capture-part .item-one .main-two:hover .overlay{
+    width: 100%;
+    opacity: .7;
+}
+#capture-part .item-one .main-three:hover .overlay{
+    width: 100%;
+    opacity: .7;
+}
+
+#capture-part .overlay .icon{
+    width: 100%;
+    height: 85%;
+    text-align: right;
+
+}
+#capture-part .overlay .icon li{
+text-align: right;
+position: relative;
+left: 340px;
+
+}
+
+#capture-part .overlay .icon li i{
+    display: block;
+    margin: 20px 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align:center;
+    line-height: 40px;
+    transition:.4s;
+
+    
+    
+
+    
+}
+#capture-part .overlay .icon li i:hover{
+    background: #d50a51;
+    border-color: #d50a51;
+    
+}
+#capture-part .overlay .font{
+width: 100%;
+height: 15%;
+
+}
+#capture-part .overlay .font h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+
+}
+#capture-part .overlay .font p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+#capture-part .overlay .font p span{
+    margin: 0 5px;
+}
+#capture-part .text{
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+#capture-part .text p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;
+    margin:15px 0;
+    
+    
+}
+#capture-part .text button{
+    border: 1px solid #d50a51;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #d50a51;
+    text-decoration: none;
+    transition:.3s;
+    margin-right: 20px;
+    text-transform: capitalize;
+    margin-top: 50px;
+    background: transparent;
+
+    
+}
+#capture-part .text button:hover{
+    background: #d50a51;
+    color: #fff;
+}
+/*captur part end================= */
+/* time-part start ============ */
+#time-part{
+    margin-top: 100px;
+    background: url(../images/counter-bg.jpg) no-repeat  ;
+    background-size: cover;
+    padding: 120px 0;;
+    
+
+
+}
+#time-part h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #d50a51;
+    margin-top: 10px;
+}
+#time-part h4{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    font-size: 32px;
+    color: #444;
+
+}
+#time-part img{
+    
+}
+#time-part .day{
+width: 25%;
+text-align: center;
+float: left;
+margin-top: -80px;
+
+
+
+}
+#time-part .hour{
+    width: 25%;
+    text-align: center;
+    float: left;
+    margin-top: -60px;
+    
+}
+#time-part .minute{
+width: 25%;
+text-align: center;
+float: left;
+margin-top: -80px;
+
+}
+#time-part .second{
+    width: 25%;
+    text-align: center;
+    float: left;
+    margin-top: -60px;
+    
+    
+}
+/* time-part end ============ */
+/* client-part start======================= */
+#client-part {
+margin-top: 100px;
+}
+
+#client-part .itema{
+    width: 45%;
+    float: left;
+    margin: 0 15px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #fffae2;
+    position: relative;
+}
+#client-part .itema .img{
+    position: absolute;
+    top:-40px;
+    left: -40px;;
+}
+#client-part h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #444;
+}
+#client-part h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #444;
+}
+#client-part p{
+    width: 90%;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;
+
+}
+#client-part  .photo {
+width: 25%;
+float: left;
+margin-top: 20px;
+
+}
+#client-part .name {
+    width: 75%;
+    float: left;
+    margin-top: 50px;
+    }
+#client-part .itemb{
+    width: 45%;
+    float: left;
+    margin: 0 15px;
+    background: #fffae2;
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+#client-part .itemb .img{
+    position: absolute;
+    bottom:-40px;
+    right: -40px;;
+    transform: rotate(180deg);
+}
+
+/* client-part start======================= */
+/* footer ==================== */
+footer{
+    margin-top: 100px;
+    background: url(../images/footer-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+footer .footer-logo{
+    width:100%;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+footer .info{
+    width:100%;
+    
+
+}
+footer .info .loc{
+width: 32%;
+float: left;
+position: relative;
+top:0;
+left: 160px;
+
+
+}
+footer .info .a{
+    width: 15%;
+    float: left;
+
+}
+footer .info .b{
+    width: 85%;
+    float: left;
+
+}
+footer .info .a i{
+    width: 50px;
+    height: 50px;
+    background: #d50a51;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 24px;
+    
+}
+
+footer .info .b p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #444;
+    text-decoration: none;
+    margin-left: 20px;
+    line-height: 26px;
+}
+footer .info .msg{
+    width: 32%;
+    float: left;
+    position: relative;
+    left: 110px;
+
+}
+footer .info .bro{
+    width: 32%;
+    float: left;
+    position: relative;
+    left: 50px;
+
+}
+footer .icon{
+    margin-top: 150px;
+    width:100%;
+    text-align: center;
+    
+}
+footer .icon h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #d50a51;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
+footer .icon li{
+    display: inline-block;
+    margin-top: 10px;
+}
+footer .icon li i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #d50a51;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: all linear .3s;
+}
+footer .icon li i:hover {
+    background: #d50a51;
+    color:#d50a51
+}
+footer .from-part{
+    width: 80%;
+    background: #d50a51;;
+    border-radius: 100px;
+    margin: 0 auto;
+    padding: 30px 0;;
+    margin-top: -160px;
+
+}
+footer .from-part .icon-text .middel{
+    float: right;
+   
+    width: 80%;
+
+}
+footer .from-part .icon-text .middel .icon{
+    width: 20%;
+    float: left;
+   margin-top: 0;
+}
+footer .from-part .icon-text .middel .icon i{
+    font-size: 50px;
+    margin-top: 8px;
+    margin-right: 7px;
+    color: #fff;
+}
+footer .from-part .icon-text .middel .text{ 
+    width: 80%;
+    float: left;
+}
+footer .from-part .icon-text .middel .text h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+footer .from-part .icon-text .middel .text p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+footer .from-part .icon-text{
+width: 50%;
+float: left;
+
+}
+footer .from-part .from{
+    width: 50%;
+    float: left;
+}
+footer .from-part .from .name{
+    margin-top: 15px;
+    float: left;
+
+}
+footer .from-part .from .email{
+    margin-top: 15px;
+    float: left;
+
+}
+footer .your-name{
+    background: transparent;
+    color: #fff;
+    padding:7px 0;;
+    border-radius: 0;
+    border-color: #fff;;
+    margin-right: 10px;
+}
+
+footer  .your-email{
+    background: transparent;
+    color: #fff;
+    padding:7px 0;;
+    border-radius: 0;
+    border-color: #fff;;
+}
+footer .your-email button{
+
+}
+footer .email button i{
+    color:#fff;;
+    border-left: 1px solid #fff;
+    padding: 7px;
+    width: 34px;
+    background: #d50a51;
+   
+}
+}
+/* footer ==================== */
+#copy{
+    background: #fffae2;
+}
+#copy p{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+    display: inline-block;
+    margin-left: 35%;
+    padding:20px 0;
+ 
+}
+#copy a{
+    text-decoration: none;
+    color: #d50a51;
+}
